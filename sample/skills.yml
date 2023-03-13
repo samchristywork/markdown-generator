@@ -1,0 +1,9 @@
+skills:
+  "Build Systems - Make":
+    language: c
+    link: "https://github.com/samchristywork/dsml2/blob/main/Makefile"
+    description: "I used Make to build personal projects for years, and have even used it when maintaining older enterprise software. These days I favor CMake for C++ projects, but I admire Make's simplicity."
+  "Graphics Toolkits - wxWidgets":
+    language: cpp
+    link: "https://github.com/samchristywork/wx-notepad/"
+    description: "I used to favor GTK+ for desktop applications, but I generally use wxWidgets because it is more cross-platform and I occasionally need to do Windows development for work."
