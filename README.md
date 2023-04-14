@@ -2,6 +2,14 @@
 
 ## Overview
 
+This is a markdown generator that I will be using to generate lists of skills I
+have mastered. Previously, I did this kind of work manually, but I have to make
+lists like this often enough that it just makes more sense to build a program
+to do it for me.
+
+This program isn't really meant to be particularly good or impressive, only
+useful.
+
 ## Features
 
 - Parses YAML input using the YAML-cpp library
@@ -12,7 +20,27 @@
 
 ## Usage
 
+```
+./markdown-generator skills.yml
+```
+
+## Build
+
+```
+git submodule update --init --recursive
+mkdir build
+cd build
+cmake ..
+make
+```
+
 ## Dependencies:
+
+```
+CMake
+Git
+g++
+```
 
 ## License
 
