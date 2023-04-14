@@ -4,6 +4,12 @@
 
 ## Features
 
+- Parses YAML input using the YAML-cpp library
+- Automatically sorts the list using a custom comparator
+- Formats output as Github Markdown
+- Simple
+- Easy to understand
+
 ## Usage
 
 ## Dependencies:
